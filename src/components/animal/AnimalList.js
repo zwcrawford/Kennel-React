@@ -2,17 +2,31 @@ import React, { Component } from 'react';
 
 class AnimalList extends Component {
     render() {
-        return (
-            <section className="animals">
-            {
-              this.props.animals.map(animal =>
-                    <article>
-                      {animal.name}
-                    </article>
-              )
+
+      this.props.animals.map(animal => {
+        animal.owners = "";
+        animal.owner.map(name => {
+            let i = name - 1; // Counter
+            if (animal.owners === "") {
+                animal.owners = this.props.owners[i].name
+            } else {
+                animal.owners += `, ${this.props.owners[i].name} `
             }
-            </section>
-        )
+            return animal.owners
+        })
+      })
+      return (
+          <article className="animals">
+          {
+              this.props.animals.map(animal =>
+                <div key={ animal.id }>
+                  {"Name:"} {animal.name}<br />
+                  {"Owner:"} {animal.owners}
+                </div>
+              )
+          }
+          </article>
+      )
     }
 }
 
