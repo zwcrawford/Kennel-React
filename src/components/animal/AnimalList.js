@@ -6,7 +6,7 @@ class AnimalList extends Component {
             <section className="animals">
             {
               this.props.animals.map(animal =>
-                    <article>
+                  	<article>
                       {animal.name}
                     </article>
               )
