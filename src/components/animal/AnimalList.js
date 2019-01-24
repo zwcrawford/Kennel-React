@@ -19,10 +19,16 @@ class AnimalList extends Component {
           <article className="animals">
           {
               this.props.animals.map(animal =>
+
+//                   	<article>
+//                       {animal.name}
+//                     </article>
+
                 <div key={ animal.id }>
                   {"Name:"} {animal.name}<br />
                   {"Owner:"} {animal.owners}
                 </div>
+
               )
           }
           </article>
