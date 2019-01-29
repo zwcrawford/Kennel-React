@@ -25,7 +25,7 @@ class Kennel extends Component {
         { id: 2, name: "Scout", owner: [2] },
         { id: 3, name: "Luna", owner: [3] },
         { id: 4, name: "Minnie", owner: [4,1] },
-        { id: 4, name: "TeeJay", owner: [5,6] }
+        { id: 5, name: "TeeJay", owner: [5,6] }
     ]
 
     ownersFromAPI = [
