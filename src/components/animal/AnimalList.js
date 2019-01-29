@@ -5,7 +5,7 @@ import React, { Component } from 'react'
                 <section className="animals">
                 {
                 this.props.animals.map(animal =>
-                    <article>
+                    <article key={animal.id}>
                         {animal.name}
                     </article>
                 )

@@ -6,7 +6,7 @@ class OwnerList extends Component {
             <section className="owners">
             {
                 this.props.owners.map(owner =>
-                    <article key={ owner.id }>
+                    <article key={owner.id}>
                         {owner.name}
                     </article>
                 )
