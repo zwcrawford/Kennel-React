@@ -1,0 +1,30 @@
+{
+  "employees": [
+
+    { "id": 1, "name": "Jessica Younker" },
+    { "id": 2, "name": "Jordan Nelson" },
+    { "id": 3, "name": "Zoe LeBlanc" },
+    { "id": 4, "name": "Blaise Roberts" }
+  ],
+  "locations": [
+
+    { "id": 1, "name": "Nashville North", "address": "500 Circle Way" },
+    { "id": 2, "name": "Nashville South", "address": "10101 Binary Court" }
+  ],
+  "owners": [
+
+    { "id": 1, "name": "Jimi Hendrix", "phone": "615-111-1111" },
+    { "id": 2, "name": "Mazzie Starr", "phone": "615-222-2222" },
+    { "id": 3, "name": "David Byrne", "phone": "615-333-3333" },
+    { "id": 4, "name": "Janis Joplin", "phone": "615-444-4444" }
+  ],
+  "animals": [
+
+    { "id": 1, "name": "Doodles" },
+    { "id": 2, "name": "Jack" },
+    { "id": 3, "name": "Angus" },
+    { "id": 4, "name": "Henley" },
+    { "id": 5, "name": "Derkins" },
+    { "id": 6, "name": "Checkers" }
+  ]
+}
